@@ -84,7 +84,7 @@ public class WikiVideoCreator {
 			List<String> foundersList = item.getProperties().get("P112").stream().map(p -> {
 				try {
 					return new WikidataItemDownloader().download(Collections.singleton(p.getValue()))
-						.get(0).getLabels().get(Language.EN).getText();
+						.get(0).getLabels().get(Language.NL).getText();
 				} catch (IOException e) {
 					return null;
 				}
