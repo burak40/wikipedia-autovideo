@@ -8,7 +8,7 @@ public class LocalizedText {
 	
 	private Language language;
 	
-	public static final LocalizedText NA = new LocalizedText("N/A", Language.EN);
+	public static final LocalizedText NA = new LocalizedText("N/A", Language.NL);
 
 	public LocalizedText(String text, Language language) {
 		this.text = text;
