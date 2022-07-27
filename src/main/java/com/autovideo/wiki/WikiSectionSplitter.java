@@ -76,7 +76,7 @@ public class WikiSectionSplitter {
 		
 		sections.forEach(section -> {
 			if (section.getContent().length() > 2800) {
-				String summary = summ.summarize(section.getContent(), Language.EN, 2700, 0);
+				String summary = summ.summarize(section.getContent(), Language.NL, 2700, 0);
 				section.setContent(summary);
 			}
 		});
