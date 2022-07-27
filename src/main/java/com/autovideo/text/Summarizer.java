@@ -30,7 +30,7 @@ public class Summarizer {
 		
 		while (true) {
 			video.getSections().forEach(section -> {
-				String summarize = summarize(section.getContent(), Language.EN, (int)(section.getContent().length() * 0.9), 0);
+				String summarize = summarize(section.getContent(), Language.NL, (int)(section.getContent().length() * 0.9), 0);
 				section.setContent(summarize);
 			});
 			
