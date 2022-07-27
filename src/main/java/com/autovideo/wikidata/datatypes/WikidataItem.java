@@ -176,7 +176,7 @@ public class WikidataItem {
 	
 	@Override
 	public String toString() {
-		return "WikidataItem [id = " + getId() + ", mainLabel = " + getLabelOrDefault(Language.EN, "N/A") + "]";
+		return "WikidataItem [id = " + getId() + ", mainLabel = " + getLabelOrDefault(Language.NL, "N/A") + "]";
 	}
 
 	/**
@@ -200,6 +200,6 @@ public class WikidataItem {
 	}
 
 	public String getMainLabel() {
-		return getLabelOrDefault(Language.EN, null);
+		return getLabelOrDefault(Language.NL, null);
 	}
 }
