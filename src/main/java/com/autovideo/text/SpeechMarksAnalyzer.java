@@ -110,7 +110,7 @@ public class SpeechMarksAnalyzer {
 	public static void main(String[] args) throws IOException {
 		SpeechMarksAnalyzer s = new SpeechMarksAnalyzer();
 		
-		WikipediaItemDownloader wp = new WikipediaItemDownloader.Builder(Language.EN)
+		WikipediaItemDownloader wp = new WikipediaItemDownloader.Builder(Language.NL)
 			.setAcceptIds(false)
 			.setGetHtml(true).build();
 		
