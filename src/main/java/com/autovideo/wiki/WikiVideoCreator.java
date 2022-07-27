@@ -258,7 +258,7 @@ public class WikiVideoCreator {
 	    System.out.println("Starting video creation for Wikipedia page " + page + " and audio engine " + engine);
 	    
 //	    new WikiVideoCreator(true, Engine.Neural, ImageCategory.BUILDINGS).createVideo("Nice", Language.EN);
-	    new WikiVideoCreator(true, engine, ImageCategory.BUILDINGS).createVideo(page, Language.EN);
+	    new WikiVideoCreator(true, engine, ImageCategory.BUILDINGS).createVideo(page, Language.NL);
 //	    new WikiVideoCreator(true, Engine.Neural, ImageCategory.BUILDINGS).createVideo("Marseille", Language.EN);
 //	    new WikiVideoCreator(true, Engine.Neural, ImageCategory.BUILDINGS).createVideo("Bordeaux", Language.EN);
 	}
